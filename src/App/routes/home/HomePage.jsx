@@ -33,12 +33,12 @@ export default class HomePage extends Component {
               <Card>
                 <CardBlock>
                   <CardTitle>
-                    Добро пожаловать
+                    Example1
                   </CardTitle>
-                  Это пример, как можно использовать HELLO!
+                  Шумаков Сергей Александрович
                 </CardBlock>
                 <CardFooter className="text-xs-center">
-                  <A href="https://github.com/isuvorov/lego-starter-kit">
+                  <A href="#">
                     Подробнее
                   </A>
                 </CardFooter>
