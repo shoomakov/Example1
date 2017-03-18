@@ -11,14 +11,9 @@ link: http://example1.shoomakov.ru
 ```
 
 # How to git =)
-
-
-Проверить на наличие изменений:
 ```
 git status
-```
-
-Добавить под версионный контроль
-```
 git add .
+git commit
+git push
 ```
