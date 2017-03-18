@@ -38,8 +38,11 @@ export default class HomePage extends Component {
                   Шумаков Сергей Александрович
                 </CardBlock>
                 <CardFooter className="text-xs-center">
-                  <A href="#">
-                    Подробнее
+                  <A href="/auth" styleName="Left">
+                    Авторизация
+                  </A>
+                  <A href="/cabinet" styleName="Right">
+                    Личный кабинет
                   </A>
                 </CardFooter>
               </Card>

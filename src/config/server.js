@@ -7,9 +7,10 @@ export default config.server(baseConfig, {
   env: process.env.NODE_ENV || process.env.ENV || 'development',
   port: process.env.PORT || 8080,
 
-  protocol: 'https',
+  protocol: 'http',
   db: {
-    uri: process.env.DB || 'mongodb://lsk-example1:lsk-example1-pass@publicdb.mgbeta.ru:27000/lsk-example1',
+    // uri: process.env.DB || 'mongodb://lsk-example1:lsk-example1-pass@publicdb.mgbeta.ru:27000/lsk-example1',
+    uri: process.env.DB || 'mongodb://localhost:27017/example1',
   },
   jwt: {
     secret: 'REPLACE_ME_PLEASE',
