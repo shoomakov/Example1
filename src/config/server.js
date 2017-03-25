@@ -1,6 +1,8 @@
 import config from 'lego-starter-kit/utils/config';
 import baseConfig from 'lego-starter-kit/config';
 
+const env2oject = require('../modules.js');
+
 export default config.server(baseConfig, {
   client: require('./client').default, // eslint-disable-line
 
@@ -15,4 +17,6 @@ export default config.server(baseConfig, {
   jwt: {
     secret: 'REPLACE_ME_PLEASE',
   },
+
+  middlewares: env2oject('.env').middlewares,
 });
