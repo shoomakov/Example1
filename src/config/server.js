@@ -6,6 +6,7 @@ export default config.server(baseConfig, {
 
   env: process.env.NODE_ENV || process.env.ENV || 'development',
   port: process.env.PORT || 8080,
+  example: process.env.DEMO_KEY,
 
   protocol: 'https',
   db: {
